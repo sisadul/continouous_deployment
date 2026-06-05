@@ -2,7 +2,7 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class CounterTest {
-
+	// This test is for the reset method, which should set the count back to 0. The test will first increment the count 10 times, then call the reset method and check if the count is equal to 0.
 	@Test
 	public void testReset() {
 		Counter testCounter = new Counter();
